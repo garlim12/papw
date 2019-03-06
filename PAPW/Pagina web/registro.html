@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Stylesheets -->
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!-- Fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800,300' rel='stylesheet' type='text/css'>
+	<!-- Scripts -->
+	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	<script src="js/menu.js"></script>
+	<title>Encuentra los mejores componentes a los mejores precios</title>
+</head>
+<body>
+	<!---Cabecera--->
+	<div class="header">
+		<div class="inner_header">
+			<div class="logo_container">
+				<h1>PC <span>COMPONENTES</span></h1>
+			</div>
+			<ul class="navigation">
+				<a href="iniciar_sesion.html"><li>Iniciar Sesión <i class="fa fa-sign-in"></i></li></a>
+				<a href="carro.html"><li>Ver Carrito <i class="fa fa-shopping-cart"></i></li></a>
+				<a><li><form> <input type="text" name="search"></form></li></a>
+				<a href="busqueda.html"><li><i class="fa fa-search"></i></li></a>
+			</ul>
+		</div>
+	</div>
+
+	<!---Barra lateral--->
+	<!-- <i class="fa fa-bars toggle_menu"></i> -->
+
+	<div class="container-fluid">
+		<div class="container">
+			<h2 class="text-center" id="title">Inicia sesion o registrate</h2>
+ 			<hr>
+			<div class="row">
+				<div class="col-md-5">
+ 					<form role="form" method="post" action="register.php">
+						<fieldset>							
+							<p class="text-uppercase pull-center"> Registrarse.</p>	
+ 							<div class="form-group">
+								<input type="text" name="username" id="username" class="form-control input-lg" placeholder="Nombre de usuario">
+							</div>
+
+							<div class="form-group">
+								<input type="email" name="email" id="email" class="form-control input-lg" placeholder="Correo">
+							</div>
+							<div class="form-group">
+								<input type="password" name="password" id="password" class="form-control input-lg" placeholder="Contraseña">
+							</div>
+								<div class="form-group">
+								<input type="password" name="password2" id="password2" class="form-control input-lg" placeholder="Repetir contraseña">
+							</div>
+							<div class="form-check">
+								<label class="form-check-label">
+								  <input type="checkbox" class="form-check-input">
+								  Dando clic en aceptar estas de acuerdo con nuestros terminos de servicio y privacidad.
+								</label>
+							  </div>
+ 							<div>
+ 									  <input type="submit" class="btn btn-lg btn-primary   value="Register">
+ 							</div>
+						</fieldset>
+					</form>
+				</div>
+				
+				<div class="col-md-2">
+					<!-------null------>
+				</div>
+				
+				<div class="col-md-5">
+ 				 		<form role="form">
+						<fieldset>							
+							<p class="text-uppercase">Inicia sesion con tu cuenta: </p>	
+ 								
+							<div class="form-group">
+								<input type="email" name="username" id="username" class="form-control input-lg" placeholder="Nombre de usuario">
+							</div>
+							<div class="form-group">
+								<input type="password" name="password" id="password" class="form-control input-lg" placeholder="Contraseña">
+							</div>
+							<div>
+								<input type="submit" class="btn btn-md" value="Iniciar sesion">
+							</div>
+								 
+ 						</fieldset>
+				</form>	
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
